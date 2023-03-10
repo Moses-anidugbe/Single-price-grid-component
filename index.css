@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: hsl(219, 48%, 85%);
+  min-height: 100vh;
+  font-family: "Karla";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+main {
+  width: 40rem;
+  background: hsl(0, 0%, 100%);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.topSection {
+  height: 13rem;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(185, 75%, 39%);
+  margin: 2rem 0 0 2rem;
+}
+
+.subHeading {
+  margin: 1.6rem 0 0.8rem 2rem;
+  color: hsl(84, 80%, 55%);
+  font-weight: 700;
+}
+
+.info {
+  color: hsl(0, 0%, 59%);
+  margin: 0 50px 0 2rem;
+}
+
+.bottomSection {
+  display: flex;
+}
+
+.stats {
+  height: 18rem;
+  width: 50%;
+}
+
+.priceSection {
+  background: hsl(185, 75%, 29%);
+}
+
+.priceSection a {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 16rem;
+  text-decoration: none;
+  text-align: center;
+  background: hsl(84, 80%, 55%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 6px;
+}
+
+.aboutSection {
+  background: hsl(185, 75%, 39%);
+}
+
+.typeOfSubscription {
+  margin: 3rem 0 0 2rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+.price {
+  color: hsl(227, 13%, 64%);
+  margin: 1.5rem 0 0 2rem;
+}
+
+.price span {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+.access {
+  color: hsl(0, 0%, 100%);
+  margin: 1.5rem 0 1.5rem 2rem;
+}
+
+.whyUs {
+  margin: 3rem 0 1rem 2rem;
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+}
+
+.about {
+  margin: 0 0 0 2rem;
+  color: hsl(0, 0%, 100%);
+}
+
+footer {
+  font-size: 11px;
+  text-align: center;
+}
+footer a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1000px) {
+  main {
+    width: 25rem;
+  }
+
+  .topSection {
+    height: 16rem;
+  }
+
+  .bottomSection {
+    flex-direction: column;
+  }
+  .stats {
+    width: 100%;
+  }
+}
